@@ -1,20 +1,11 @@
 import React from 'react';
 import { render } from 'react-dom';
+import Header from './Header';
 
-const ce = React.createElement;
+const App = () => (
+  <div className="app">
+    <Header />
+  </div>
+);
 
-const MyTitle = function(props) {
-  return ce('div', null, ce('h1', { style: { color: props.color } }, props.title));
-};
-
-const MyFirstComponent = function() {
-  return ce(
-    'div',
-    null,
-    ce(MyTitle, { color: 'rebeccapurple', title: 'House of Cards' }),
-    ce(MyTitle, { color: 'peru', title: 'Orange is the New Black' }),
-    ce(MyTitle, { color: 'burlywood', title: 'Stranger Things' })
-  );
-};
-
-ReactDOM.render(ce(MyFirstComponent), document.getElementById('app'));
+render(<App />, document.getElementById('app'));

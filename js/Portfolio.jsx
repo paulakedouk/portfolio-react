@@ -1,10 +1,13 @@
-var ce = React.createElement;
+import React from 'react';
+import { render } from 'react-dom';
 
-var MyTitle = function(props) {
+const ce = React.createElement;
+
+const MyTitle = function(props) {
   return ce('div', null, ce('h1', { style: { color: props.color } }, props.title));
 };
 
-var MyFirstComponent = function() {
+const MyFirstComponent = function() {
   return ce(
     'div',
     null,

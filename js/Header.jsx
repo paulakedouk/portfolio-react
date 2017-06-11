@@ -3,16 +3,16 @@ import preload from '../data.json';
 
 const Header = () => (
   <div className="background main">
-    {preload.header.map(infos => (
-      <div className="header-text">
-        <h1 className="header-title">{infos.name}</h1>
-        <h2 className="header-subtitle">{infos.subtitle}</h2>
-        <p className="header-p">{infos.text}</p>
+    <div className="header-text">
+      <div>
+        <h1 className="header-title">{preload.header.name}</h1>
+        <h2 className="header-subtitle">{preload.header.subtitle}</h2>
+        <p className="header-p">{preload.header.text}</p>
         <div className="header-arrow">
           <img alt="Arrow" src={`../public/img/arrow.svg`} />
         </div>
       </div>
-    ))}
+    </div>
   </div>
 );
 

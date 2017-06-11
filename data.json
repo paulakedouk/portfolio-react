@@ -1,24 +1,41 @@
 {
-    "header": [
-        {
-            "name": "anapaula.io",
-            "subtitle": "Developer & Designer",
-            "text": "Let's build something great together!"
-        }
-    ],
+    "header": {
+        "name": "anapaula.io",
+        "subtitle": "Developer & Designer",
+        "text": "Let's build something great together!"
+    },
     "session": [
         {
             "about": "ABOUT ME",
+            "key": 1
+        },
+        {
             "expert": "EXPERT IN",
+            "key": 2
+        },
+        {
             "experience": "ME EXPERIENCE",
+            "key": 3
+        },
+        {
             "education": "MY EDUCATION",
+            "key": 4
+        },
+        {
             "people": "WHAT PEOPLE SAY ABOUT ME",
-            "contact": "GET IN TOUCH"
+            "key": 5
+        },
+        {
+            "contact": "GET IN TOUCH",
+            "key": 6
         }
     ],
     "aboutme": [
         {
-            "me": "Paula Kedouk"
+            "name": "Paula Kedouk"
+        },
+        {
+            "paragraph": "Focused software engineer, designer, and entrepreneur, driven by challenges, with soft skills to lead and work with cross-functional teams in technology and innovation projects. Led a small team of designers and developers, won 3 national startup contests and built a community of 1500+ customers, all in one year. Passionate designer with a big eye for details, creative and good teammate. Co-instructor of a Design Thinking program, leveraging tools to build empathy and find customer needs. Loves to travel, experience new cultures, to always learn and never give up."
         }
     ]
 }
